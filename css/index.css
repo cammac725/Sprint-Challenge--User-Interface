@@ -110,6 +110,12 @@ header img {
     padding-bottom: 20px;  
 }
 
+.about-top-text {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -168,7 +174,30 @@ header img {
     background: dodgerblue;
 }
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.about-content .card {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 15px 0 30px 0;
+    padding-bottom: 15px;
+}
+
+.about-content .card img {
+    margin-bottom: 10px;
+}
+
+.about-content .card button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 8px;
+    padding: 8px 20px;
+}
 
 .bottom-content {
     display: flex;
